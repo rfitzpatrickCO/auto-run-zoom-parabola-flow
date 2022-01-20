@@ -8,8 +8,7 @@ from secrets import myPassword
 
 # This script is used to automate the process of managing Zoom licenses
 # with the use of Parabola.io. In order to avoid paying for Parabola
-# to schedule workflows, this script will run automatically
-# to log me in and run the workflow.
+# to schedule workflows, this script will log me in automatically and run the workflow
 
 class ParabolaBot:
     def __init__(self, username, myPassword):
